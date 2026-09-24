@@ -6,20 +6,114 @@
     <title>Čišćenje vozila</title>
     <link rel="stylesheet" href="dist/output.css">
 </head>
-<body class="bg-slate-900 text-slate-100">
-
-    <header class="flex items-center justify-between p-4 bg-white shadow-sm">
-        <a href="#" class="focus-ring rounded-sm text-xl font-bold ">Usluge</a>
+<body class="bg-slate-100 text-slate-900 dark:bg-slate-900 dark:text-slate-100">
+    
+    <header class="flex items-center justify-between p-4 bg-white shadow-sm dark:bg-slate-800">
+        <a href="#" class="focus-ring rounded-sm text-xl font-bold text-brand">DTS Detailing - obrt za čišćenje vozila</a>
         <nav class="flex gap-4">
-            <a href="#katalog" class="focus-ring rounded-sm hover:text-slate-900 ">Katalog usluga</a>
-            <a href="#kontakt" class="focus-ring rounded-sm hover:text-slate-900">Kontakt</a>
+            <a href="#katalog" class="focus-ring rounded-sm hover:text-brand">Katalog usluga</a>
+            <a href="#kontakt" class="focus-ring rounded-sm hover:text-brand">Kontakt</a>
         </nav>
+    </header> 
+    <main class="grid lg:grid-cols-4 gap-6 max-w-6xl mx-auto p-6">
+        <section id="katalog" class="lg:col-span-3">
+            <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold">Katalog usluga</h1>
         
-    </header>
-    <main class="">
-        <section id="katalog">
-    <h1>DTS Detailing</h1>
-</section>
-</main>
+        <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-6 mt-6">
+        <article class="card @container group flex flex-col">
+
+        <h2 class="text-lg font-bold group-hover:text-brand">
+            DTS Refresh interijera
+        </h2>
+
+        
+           <ul class="space-y-2 text-brand text-slate-800 dark:text-slate-400"> 
+            <li>DTS Refresh Interijera namijenjen je redovitom održavanju čistoće unutrašnjosti vozila. </li>
+            </ul>
+        
+
+        <div class="flex flex-col gap-4 mt-4 @sm:flex-row @sm:items-end @sm:justify-between">
+        <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+            <li>Cijena paketa: 50 €</li>
+          
+        </ul>
+
+        <a href="#" class="btn-primary">
+            Odaberi uslugu 
+        </a>
+    </div>
+    </article>
+    
+    <article class="card @container group flex flex-col">
+
+        <h2 class="text-lg font-bold group-hover:text-brand">
+            DTS Refresh eksterijera
+        </h2>
+
+            <ul class="space-y-2 text-brand text-slate-800 dark:text-slate-400">
+            <li>DTS Refresh Eksterijera namijenjen je redovitom održavanju vanjskog izgleda vozila.<li>
+            <li>Vozilo prolazi siguran proces pranja uz korištenje profesionalnih detailing proizvoda i tehnika koje učinkovito uklanjaju nečistoće, a pritom čuvaju lak i postojeće zaštitne premaze.</li>
+            </ul>
+        
+
+        <div class="flex flex-col gap-4 mt-4 @sm:flex-row @sm:items-end @sm:justify-between">
+        <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+            <li>Cijena paketa: 40 €</li>
+           
+        </ul>
+
+        <a href="#" class="btn-primary">
+            Odaberi uslugu 
+        </a>
+    </div>
+
+    
+
+    </article>
+
+    <article class="card @container group flex flex-col">
+
+        <h2 class="text-lg font-bold group-hover:text-brand">
+            DTS dubinsko čišćenje interijera
+        </h2>
+
+        <ul class="space-y-2 text-sm text-slate-800 dark:text-slate-400">
+            <li>DTS Dubinsko čiščenje interijera namijenjen je vozilima koja zahtijevaju temeljito dubinsko čišćenje i osvježenje unutrašnjosti. </li>
+            <li>Uz sve što uključuje DTS Refresh Interijera, provodimo kemijsko čišćenje tekstilnih površina kako bismo uklonili dubinski nakupljenu prljavštinu, mrlje i neugodne mirise.</li>
+        </ul>
+
+        <div class="flex flex-col gap-4 mt-4 @sm:flex-row @sm:items-end @sm:justify-between">
+        <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+            <li>Cijena paketa: </li>
+            <li>Standard auotomobil-120+€</li>
+            <li>SUV, veči automobil-140+€</li>
+        </ul>
+
+        <a href="#" class="btn-primary">
+            Odaberi uslugu
+        </a>
+    </div>
+
+    </article>
+    </div>
+
+        </section>
+
+        <aside class="p-6 bg-white rounded-card shadow-sm dark:bg-slate-600">
+            <h2 class="font-bold">Kako do nas?</h2>
+            <ol class="mt-4 space-y-2 list-decimal list-inside text-slate-600 dark:text-slate-400">
+                <li>Nazovi na brojeve: tel:+385998179570 ili tel:+385995157838  </li>
+                <li>Možeš i posjetiti trgovinu sa sredstvima za čišćenje vozila.</li>
+                <li>Lokacija:  Ul. Potočna 10, Koprivnica</li>
+            </ol>
+        </aside>
+    </main>
+
+    <footer id="kontakt" class="p-6 text-center text-sm text-slate-600 dark:text-slate-400">
+        info@dtsshop.hr &copy; 2026 DTS
+    </footer>
+
+
+    
 </body>
 </html>
